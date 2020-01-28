@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/css/map.css">
+</head>
+<body>
+    <div class="hotel-search">
+        <div id="findplaces">
+          Find:
+        </div>
+      
+      
+        <div id="locationField">
+          <input id="autocomplete" placeholder="Enter a city" type="text" />
+        </div>
+      
+        <div id="controls">
+          <select id="country">
+            <option value="all">All</option>
+            <option value="in" selected>INDIA</option>
+            <option value="au">Australia</option>
+            <option value="br">Brazil</option>
+            <option value="ca">Canada</option>
+            <option value="fr">France</option>
+            <option value="de">Germany</option>
+            <option value="mx">Mexico</option>
+            <option value="nz">New Zealand</option>
+            <option value="it">Italy</option>
+            <option value="za">South Africa</option>
+            <option value="es">Spain</option>
+            <option value="pt">Portugal</option>
+            <option value="us">U.S.A.</option>
+            <option value="uk">United Kingdom</option>
+          </select>
+      
+        </div>
+        <!-- <div id="findhotels">
+          <button onclick="search('lodging')">Hotels</button>
+        </div>
+        <div id="findRes">
+          <button onclick="search('restaurant')">Restaurants</button>
+        </div>
+        <div id="findta">
+          <button onclick="search('tourist_attraction')">Tourist Attractions</button>
+        </div>
+        <div id="findatm">
+          <button onclick="search('atm')">Atm</button>
+        </div> -->
+      </div>
+      
+      <div id="map"></div>
+      
+      <div id="listing">
+        <table id="resultsTable">
+          <tbody id="results"></tbody>
+        </table>
+      </div>
+      
+      <div style="display: none">
+        <div id="info-content">
+          <table>
+            <tr id="iw-url-row" class="iw_table_row">
+              <td id="iw-icon" class="iw_table_icon"></td>
+              <td id="iw-url"></td>
+            </tr>
+            <tr id="iw-address-row" class="iw_table_row">
+              <td class="iw_attribute_name">Address:</td>
+              <td id="iw-address"></td>
+            </tr>
+            <tr id="iw-phone-row" class="iw_table_row">
+              <td class="iw_attribute_name">Telephone:</td>
+              <td id="iw-phone"></td>
+            </tr>
+            <tr id="iw-rating-row" class="iw_table_row">
+              <td class="iw_attribute_name">Rating:</td>
+              <td id="iw-rating"></td>
+            </tr>
+            <tr id="iw-website-row" class="iw_table_row">
+              <td class="iw_attribute_name">Website:</td>
+              <td id="iw-website"></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <!-- Replace the value of the key parameter with your own API key. -->
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVckXipCpyGacLRxZMirJ6YRrAuLqJ854&libraries=places&callback=initMap" async defer></script>
+      <script src="/js/find.js"></script>
+</body>
+</html>
+
+<!-- 
+AIzaSyAamQiLGm9TUsWgDJ6DbYtSC2Q99MQ-uAY -->
