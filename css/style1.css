@@ -1,0 +1,278 @@
+*{
+    font-family: "Rimouski";
+}
+.container{
+    width: 300px;    
+    background-color: #FFF;
+    
+    display: block;
+    margin: 0 auto;
+    
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+
+.app-title{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.app-title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #293251;
+}
+
+.notification{
+    background-color: #f8d7da;
+    display: none;
+}
+
+.notification p{
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-container{
+    width: 300px;
+    height: 260px;
+ 
+}
+
+.weather-icon{
+    width: 300px;
+    height: 128px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature-value{
+    width: 300px;
+    height:60px;
+}
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+.temperature-value span{
+    color: #293251;
+    font-size: 0.5em;
+}
+
+
+
+.temperature-description p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-style: bold;
+    font-size: 1.1em;
+}
+
+
+#more {
+    display: none;
+  }
+#weather-con{
+    margin:20px;
+    border-radius: 25px;
+    border: 2px solid #ffc60b;
+    background-color:lightgoldenrodyellow;
+    text-justify: center;
+    display:none;
+    
+}
+
+
+/* 3rd */
+
+div{
+    margin-bottom: 25px;
+}
+
+
+.header{
+   
+    background-color:#ffc60b;
+    padding: 20px;
+    border-radius:0px 0px 70px 70px;
+
+}
+body{
+    margin: 0%;
+    
+}
+h1{
+    margin-top: 0%;
+    color:#444444;
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* search box */
+.main{
+    width: 75%;
+    margin: 50px auto;
+}
+.page{
+    background-image: url("");
+}
+.input-group-append{
+    z-index: 1;
+}
+
+  #res
+{
+
+    border-radius: 25px;
+    border: 2px solid #ffc60b;
+    display: none;
+    padding: 20px;
+    text-align: justify;
+}
+#map_canvas{
+  border: 2px solid #ffc60b;
+  border-radius: 25px;
+  display: none;
+  
+}
+
+#images{
+    border-radius: 5px;
+    border: 2px solid #ffc60b;
+    display: none;
+}
+#news-block{
+    border-radius: 10px;
+    border: 2px solid #ffc60b;
+    display: none;
+}
+#news-tittle{
+    display: none;
+}
+
+.login {
+	background-image: url("/images/login1.jpg");
+	background-size: cover;
+	height: 420px;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button {
+	background-color:black;
+	border: 2px solid white;
+	border-radius: 30px;
+	text-decoration: none;
+	padding: 10px 28px;
+	color: white;
+	margin-top: 10px;
+    display: inline-block;
+}
+	.button :hover {
+		background-color: white;
+		color: blue;
+		border: 2px solid blue;
+	}
+
+    .bg-modal {
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .modal-contents {
+        height: 300px;
+        width: 500px;
+        background-color: white;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        border-radius: 4px;
+        align-items: center;
+    }
+    
+    
+    .close {
+        position: absolute;
+        top: 0;
+        right: 10px;
+        font-size: 42px;
+        color: #333;
+        transform: rotate(45deg);
+        cursor: pointer;
+        
+    }
+    close:hover {
+        color: #666;
+    }
+
+    .title{
+        text-align: center;
+      }
+      .section_subtitle{
+
+        margin-bottom: 7px;
+        padding-left: 7px;
+        font-size: 16px;
+        line-height: 1;
+        text-transform: uppercase;
+        color: #aaaaaa;
+        border-left: 3px solid #bfa67a;
+        font-size: 700;
+        font-family: tahoma;
+    
+    }
+    .section_main_title {
+        margin-top: 0;
+        margin-bottom: 37px;
+        font-size: 30px;
+        line-height: 1.27;
+        font-weight: 300;
+    
+    }
+    .section_main_title strong {
+        font-weight: 600;
+    }
+    .about_item{
+        text-align: justify;
+    }
+    .title{
+        margin-top: 50px;
+    }      

@@ -1,0 +1,211 @@
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+ #map {
+    height: 100%;
+  }
+  
+  /* Optional: Makes the sample page fill the window. */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    padding: 0 !important;
+  }
+  
+  table {
+    font-size: 12px;
+  }
+  #findplaces{
+    margin-top: 20px;
+    margin-left: 20px; 
+  }
+  
+  .hotel-search {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #f5f5b0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    width: 800px;
+    z-index: 1;
+    margin: 50px;
+    border: 2px solid darkgoldenrod;
+    border-radius: 5px;
+  }
+  
+  #map {
+    margin-top:0px;
+    width: 800px;
+    margin-left: 30px;
+    border: 2px solid rgb(171, 171, 214);
+    border-radius:5px; 
+  }
+  
+  #listing {
+    position: absolute;
+    width: 300px;
+    height: 470px;
+    overflow: auto;
+    left: 900px;
+    top: 360px;
+    cursor: pointer;
+    overflow-x: hidden;
+    border: 2px solid rgb(171, 171, 214);
+    border-radius:5px;
+  }
+  
+  #findhotels {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 10px;
+
+  }
+  #findRes{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  
+  #locationField {
+    -webkit-box-flex: 1 1 250px;
+    -ms-flex: 1 1 250px;
+    flex: 1 1 250px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
+  #controls {
+    -webkit-box-flex: 1 1 140px;
+    -ms-flex: 1 1 140px;
+    flex: 1 1 140px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
+  #autocomplete {
+    width: 100%;
+  }
+  
+  #country {
+    width: 100%;
+  }
+  
+  .placeIcon {
+    width: 20px;
+    height: 34px;
+    margin: 4px;
+  }
+  
+  .hotelIcon {
+    width: 24px;
+    height: 24px;
+  }
+  #findatm{
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+  }
+  
+  #resultsTable {
+    border-collapse: collapse;
+    width: 300px;
+  }
+  
+  #rating {
+    font-size: 13px;
+    font-family: Arial Unicode MS;
+  }
+  
+  .iw_table_row {
+    height: 18px;
+  }
+  
+  .iw_attribute_name {
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  .iw_table_icon {
+    text-align: right;
+  }
+  
+  #findatm{
+    margin-top: 20px;
+    margin-left: 20px; 
+  }
+  
+  .atm-search {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #f5f5b0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    left: 350px;
+    width: 500px;
+    z-index: 1;
+    margin: 50px;
+    border: 2px solid darkgoldenrod;
+    border-radius: 5px;
+  }
+  #atmField {
+    -webkit-box-flex: 1 1 200px;
+    -ms-flex: 1 1 200px;
+    flex: 1 1 200px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
+  #atmcontrols {
+    -webkit-box-flex: 1 1 100px;
+    -ms-flex: 1 1 100px;
+    flex: 1 1 100px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  #findta{
+    margin-top: 20px;
+    margin-left: 20px; 
+  }
+  
+  .ta-search {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #f5f5b0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    left: 100px;
+    width: 1050px;
+    z-index: 1;
+    margin: 50px;
+    border: 2px solid darkgoldenrod;
+    border-radius: 5px;
+  }
+  #taField {
+    -webkit-box-flex: 1 1 200px;
+    -ms-flex: 1 1 200px;
+    flex: 1 1 200px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
+  #tacontrols {
+    -webkit-box-flex: 1 1 100px;
+    -ms-flex: 1 1 100px;
+    flex: 1 1 100px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
